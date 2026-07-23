@@ -11,7 +11,6 @@ def binarySearch(arr, left, right, key):
 
 arr = [0, 1, 2, 5, 7, 8]
 n = len(arr)
-for i in range(n):
-  key = arr[i]
-  position = binarySearch(arr, 0, n-1, key)
-  print("found ", key, " at index ", position)
+key = 2
+position = binarySearch(arr, 0, n-1, key)
+print("found ", key, " at index ", position)
